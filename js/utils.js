@@ -6,7 +6,7 @@ export function showErrorMessage(message) {
     const msg = 
         `<div class="error">
             <p>${message}</p>
-            <p><a href="/">Перейти к списку товаров!</a></p>
+            <p><a href="https://rruslan97.github.io/tages.github.io/">Перейти к списку товаров!</a></p>
         </div>`;
     h1.insertAdjacentHTML('afterend', msg);
 }
